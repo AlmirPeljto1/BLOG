@@ -1,0 +1,15 @@
+//IMPORTS
+import Post from "../post/Post";
+import "./posts.css";
+//COMPONENT
+const Posts = ({ posts }) => {
+  return (
+    <div className="posts">
+      {posts.map((p) => (
+        <Post post={p} />
+      ))}
+    </div>
+  );
+};
+//EXPORT
+export default Posts;

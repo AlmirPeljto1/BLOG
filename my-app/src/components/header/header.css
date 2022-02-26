@@ -1,0 +1,26 @@
+/*header css*/
+
+.header {
+  margin-top: 60px;
+}
+.headerTitles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.headerTitleBlog {
+  font-family: "Lora", sans-serif;
+  font-size: 100px;
+  position: absolute;
+  top: 20%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 3px rgb(94, 94, 94);
+}
+.headerImg {
+  width: 100%;
+  height: 450px;
+  margin-top: 50px;
+  object-fit: cover;
+}

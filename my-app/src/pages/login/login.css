@@ -1,0 +1,52 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(71, 70, 70, 0.5)
+    ),
+    url("https://www.indahnyaislam.my/wp-content/uploads/2017/02/writing.jpg");
+  background-size: cover;
+}
+.loginTitle {
+  font-size: 50px;
+}
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.loginForm > label {
+  margin: 10px 0;
+}
+.loginForm > input {
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.loginButton:disabled {
+  display: none;
+}
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
